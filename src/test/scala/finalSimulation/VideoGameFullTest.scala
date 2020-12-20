@@ -107,9 +107,7 @@ class VideoGameFullTest extends Simulation {
       rampUsers(userCount) during (rampDuration seconds))
   )
     .protocols(httpConf)
-    .maxDuration(testDuration seconds)
-    .assertions(global.responseTime.max.lt(2),
-      global.successfulRequests.percent.gt(99))
+    .maxDuration(testDuration seconds))
 
   /*** After ***/
   after {
