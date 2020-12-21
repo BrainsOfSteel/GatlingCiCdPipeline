@@ -12,7 +12,7 @@ import scala.util.Random
 class VideoGameFullTest extends Simulation {
 
   val httpConf = http
-    .baseUrl("http://localhost:8080/app/")
+    .baseUrl("http://192.168.0.108:8080/app/")
     .header("Accept", "application/json")
 
   /*** Variables ***/
