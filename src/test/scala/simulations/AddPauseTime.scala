@@ -7,6 +7,8 @@ import scala.concurrent.duration.DurationInt
 
 class AddPauseTime extends Simulation {
 
+  //Adding new dummy commit
+
   val httpConf = http.baseUrl("http://localhost:8080/app/")
     .header("Accept", "application/json")
   //Adding patch changes
