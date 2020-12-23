@@ -15,6 +15,7 @@ class VideoGameFullTest extends Simulation {
     .baseUrl("http://192.168.0.108:8080/app/")
     .header("Accept", "application/json")
 
+  //Adding dummy commit
   /*** Variables ***/
   // runtime variables
   def userCount: Int = getProperty("USERS", "3").toInt
