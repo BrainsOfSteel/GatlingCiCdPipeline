@@ -16,6 +16,7 @@ class VideoGameFullTest extends Simulation {
     .header("Accept", "application/json")
 
   //Adding dummy commit
+  //Adding dummy commit2
   /*** Variables ***/
   // runtime variables
   def userCount: Int = getProperty("USERS", "3").toInt
