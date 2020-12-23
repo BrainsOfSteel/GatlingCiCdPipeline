@@ -12,6 +12,7 @@ class AddPauseTime extends Simulation {
   val httpConf = http.baseUrl("http://localhost:8080/app/")
     .header("Accept", "application/json")
 
+  //Adding new change to master and push them again
   val scn = scenario("Video Game DB - 3 calls")
 
     .exec(http("Get all video games - 1st call")
